@@ -1,0 +1,9 @@
+C:\Users\B9800D3\Documents\ProjetoSoma\ProjetoSoma\bin\Debug\ProjetoSoma.exe.config
+C:\Users\B9800D3\Documents\ProjetoSoma\ProjetoSoma\bin\Debug\ProjetoSoma.exe
+C:\Users\B9800D3\Documents\ProjetoSoma\ProjetoSoma\bin\Debug\ProjetoSoma.pdb
+C:\Users\B9800D3\Documents\ProjetoSoma\ProjetoSoma\obj\Debug\ProjetoSoma.csprojResolveAssemblyReference.cache
+C:\Users\B9800D3\Documents\ProjetoSoma\ProjetoSoma\obj\Debug\ProjetoSoma.Properties.Resources.resources
+C:\Users\B9800D3\Documents\ProjetoSoma\ProjetoSoma\obj\Debug\ProjetoSoma.csproj.GenerateResource.Cache
+C:\Users\B9800D3\Documents\ProjetoSoma\ProjetoSoma\obj\Debug\ProjetoSoma.exe
+C:\Users\B9800D3\Documents\ProjetoSoma\ProjetoSoma\obj\Debug\ProjetoSoma.pdb
+C:\Users\B9800D3\Documents\ProjetoSoma\ProjetoSoma\obj\Debug\ProjetoSoma.frmPrincipal.resources
