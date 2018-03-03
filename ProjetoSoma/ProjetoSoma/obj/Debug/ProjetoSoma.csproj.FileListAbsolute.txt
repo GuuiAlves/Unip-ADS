@@ -7,3 +7,12 @@ C:\Users\B9800D3\Documents\ProjetoSoma\ProjetoSoma\obj\Debug\ProjetoSoma.csproj.
 C:\Users\B9800D3\Documents\ProjetoSoma\ProjetoSoma\obj\Debug\ProjetoSoma.exe
 C:\Users\B9800D3\Documents\ProjetoSoma\ProjetoSoma\obj\Debug\ProjetoSoma.pdb
 C:\Users\B9800D3\Documents\ProjetoSoma\ProjetoSoma\obj\Debug\ProjetoSoma.frmPrincipal.resources
+C:\Users\b9800d3\Desktop\ProjetoSoma\ProjetoSoma\bin\Debug\ProjetoSoma.exe.config
+C:\Users\b9800d3\Desktop\ProjetoSoma\ProjetoSoma\obj\Debug\ProjetoSoma.exe
+C:\Users\b9800d3\Desktop\ProjetoSoma\ProjetoSoma\obj\Debug\ProjetoSoma.pdb
+C:\Users\b9800d3\Desktop\ProjetoSoma\ProjetoSoma\bin\Debug\ProjetoSoma.exe
+C:\Users\b9800d3\Desktop\ProjetoSoma\ProjetoSoma\bin\Debug\ProjetoSoma.pdb
+C:\Users\b9800d3\Desktop\ProjetoSoma\ProjetoSoma\obj\Debug\ProjetoSoma.csprojResolveAssemblyReference.cache
+C:\Users\b9800d3\Desktop\ProjetoSoma\ProjetoSoma\obj\Debug\ProjetoSoma.frmPrincipal.resources
+C:\Users\b9800d3\Desktop\ProjetoSoma\ProjetoSoma\obj\Debug\ProjetoSoma.Properties.Resources.resources
+C:\Users\b9800d3\Desktop\ProjetoSoma\ProjetoSoma\obj\Debug\ProjetoSoma.csproj.GenerateResource.Cache

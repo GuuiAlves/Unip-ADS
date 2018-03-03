@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ProjetoSoma.Modelo;
 
 namespace ProjetoSoma
 {
@@ -16,7 +17,7 @@ namespace ProjetoSoma
         {
             InitializeComponent();
         }
-
+        
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -24,44 +25,26 @@ namespace ProjetoSoma
 
         private void btnNumero_Click(object sender, EventArgs e)
         {
-            Double n1 = 0.0, n2 = 0.0, resultado = 0.0;
-            n1 = Convert.ToDouble(txbPrimeiroNumero.Text);
-            n2 = Convert.ToDouble(txbSegundoNumero.Text);
-            resultado = n1 + n2;
-            lblResultado.Text = resultado.ToString();
+            Controle controle = new Controle();
+            lblResultado.Text = controle.Calcular(txbPrimeiroNumero.Text, txbSegundoNumero.Text, "+");
         }
 
         private void btnSubtrair_Click(object sender, EventArgs e)
         {
-            Double n1 = 0.0, n2 = 0.0, resultado = 0.0;
-            n1 = Convert.ToDouble(txbPrimeiroNumero.Text);
-            n2 = Convert.ToDouble(txbSegundoNumero.Text);
-            resultado = n1 - n2;
-            lblResultado.Text = resultado.ToString();
+            Controle controle = new Controle();
+            lblResultado.Text = controle.Calcular(txbPrimeiroNumero.Text, txbSegundoNumero.Text, "-");
         }
 
         private void btnDividir_Click(object sender, EventArgs e)
         {
-            Double n1 = 0.0, n2 = 0.0, resultado = 0.0;
-            n1 = Convert.ToDouble(txbPrimeiroNumero.Text);
-            n2 = Convert.ToDouble(txbSegundoNumero.Text);
-
-            if (n1 == 0 || n2 == 0)
-            {
-                MessageBox.Show("Erro, divisao por zero!");
-            }
-
-            resultado = n1 / n2;
-            lblResultado.Text = resultado.ToString();
+            Controle controle = new Controle();
+            lblResultado.Text = controle.Calcular(txbPrimeiroNumero.Text, txbSegundoNumero.Text, "/");
         }
 
         private void btnMultiplicar_Click(object sender, EventArgs e)
         {
-            Double n1 = 0.0, n2 = 0.0, resultado = 0.0;
-            n1 = Convert.ToDouble(txbPrimeiroNumero.Text);
-            n2 = Convert.ToDouble(txbSegundoNumero.Text);
-            resultado = n1 * n2;
-            lblResultado.Text = resultado.ToString();
+            Controle controle = new Controle();
+            lblResultado.Text = controle.Calcular(txbPrimeiroNumero.Text, txbSegundoNumero.Text, "*");
         }
     }
 }
