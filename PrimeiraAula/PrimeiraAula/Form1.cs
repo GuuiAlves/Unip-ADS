@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
 using PrimeiraAula.Modelo;
 
 namespace PrimeiraAula
@@ -20,34 +19,50 @@ namespace PrimeiraAula
             InitializeComponent();
         }
 
+        private void Executar(String op)
+        {
+            Controle controle = new Controle();
+            controle.num1 = txbPrimeiroNumero.Text;
+            controle.num2 = txbSegundoNumero.Text;
+            controle.op = op;
+            controle.Executar();
+            if(controle.mensagem.Equals(""))
+            {
+                lblResultado.Text = controle.resposta;
+            }
+            else
+            {
+                MessageBox.Show(controle.mensagem);
+                txbSegundoNumero.Clear();
+                txbPrimeiroNumero.Clear();
+                lblResultado.Text = "";
+                txbPrimeiroNumero.Focus();
+            }
+        }
 
         private void btnSomar_Click(object sender, EventArgs e)
         {
-            Controle controle = new Controle(txbPrimeiroNumero.Text, txbSegundoNumero.Text, "+");
-            lblResultado.Text = controle.Resposta;
+            Executar("+");
         }
 
         private void btnSubtrair_Click(object sender, EventArgs e)
         {
-            
+            Executar("-");
         }
 
         private void btnMultiplicar_Click(object sender, EventArgs e)
         {
-            
+            Executar("*");
         }
 
         private void btnDividir_Click(object sender, EventArgs e)
         {
-            
+            Executar("/");
         }
 
         private void frmPrincipal_Load(object sender, EventArgs e)
         {
 
         }
-
-        
-       
     }
 }
