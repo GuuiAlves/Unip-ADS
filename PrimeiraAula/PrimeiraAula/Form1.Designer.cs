@@ -44,7 +44,7 @@
             // lblPrimeiroNumero
             // 
             this.lblPrimeiroNumero.AutoSize = true;
-            this.lblPrimeiroNumero.Location = new System.Drawing.Point(49, 22);
+            this.lblPrimeiroNumero.Location = new System.Drawing.Point(25, 22);
             this.lblPrimeiroNumero.Name = "lblPrimeiroNumero";
             this.lblPrimeiroNumero.Size = new System.Drawing.Size(120, 13);
             this.lblPrimeiroNumero.TabIndex = 0;
@@ -54,7 +54,7 @@
             // 
             this.txbPrimeiroNumero.Location = new System.Drawing.Point(28, 38);
             this.txbPrimeiroNumero.Name = "txbPrimeiroNumero";
-            this.txbPrimeiroNumero.Size = new System.Drawing.Size(156, 20);
+            this.txbPrimeiroNumero.Size = new System.Drawing.Size(147, 20);
             this.txbPrimeiroNumero.TabIndex = 1;
             this.toolTip1.SetToolTip(this.txbPrimeiroNumero, "Digite um número ");
             // 
@@ -62,14 +62,14 @@
             // 
             this.txbSegundoNumero.Location = new System.Drawing.Point(28, 94);
             this.txbSegundoNumero.Name = "txbSegundoNumero";
-            this.txbSegundoNumero.Size = new System.Drawing.Size(156, 20);
+            this.txbSegundoNumero.Size = new System.Drawing.Size(147, 20);
             this.txbSegundoNumero.TabIndex = 3;
             this.toolTip1.SetToolTip(this.txbSegundoNumero, "Digite outro número");
             // 
             // lblSegundoNumero
             // 
             this.lblSegundoNumero.AutoSize = true;
-            this.lblSegundoNumero.Location = new System.Drawing.Point(44, 78);
+            this.lblSegundoNumero.Location = new System.Drawing.Point(25, 78);
             this.lblSegundoNumero.Name = "lblSegundoNumero";
             this.lblSegundoNumero.Size = new System.Drawing.Size(125, 13);
             this.lblSegundoNumero.TabIndex = 2;
@@ -89,7 +89,7 @@
             // lblResultado
             // 
             this.lblResultado.AutoSize = true;
-            this.lblResultado.Location = new System.Drawing.Point(77, 196);
+            this.lblResultado.Location = new System.Drawing.Point(25, 193);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(55, 13);
             this.lblResultado.TabIndex = 5;
@@ -97,7 +97,7 @@
             // 
             // btnSubtrair
             // 
-            this.btnSubtrair.Location = new System.Drawing.Point(109, 130);
+            this.btnSubtrair.Location = new System.Drawing.Point(100, 130);
             this.btnSubtrair.Name = "btnSubtrair";
             this.btnSubtrair.Size = new System.Drawing.Size(75, 23);
             this.btnSubtrair.TabIndex = 6;
@@ -119,7 +119,7 @@
             // 
             // btnDividir
             // 
-            this.btnDividir.Location = new System.Drawing.Point(109, 159);
+            this.btnDividir.Location = new System.Drawing.Point(100, 159);
             this.btnDividir.Name = "btnDividir";
             this.btnDividir.Size = new System.Drawing.Size(75, 23);
             this.btnDividir.TabIndex = 8;
@@ -145,7 +145,6 @@
             this.Controls.Add(this.lblPrimeiroNumero);
             this.Name = "frmPrincipal";
             this.Text = "Somar dois números";
-            this.Load += new System.EventHandler(this.frmPrincipal_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

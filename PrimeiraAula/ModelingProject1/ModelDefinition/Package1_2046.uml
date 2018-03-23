@@ -1,0 +1,1515 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="4dc70b2d-2535-4f10-943d-d8320553225d"
+  name="Modelo"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="c58d34b4-95ca-4f82-a6a5-5b68a586bef0"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DPrimeiraAula.Modelo"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="29d8d04d-8827-4483-ac2b-e412b7a2e36c"
+        name="Validacao"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="c7ac0a5b-b2ab-47de-861f-5376ec28ade2"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Freverdan.sparinger%2FDocuments%2FVisual Studio 2012%2FProjects%2Fads noite%2FPrimeiraAula%2FPrimeiraAula%2Fbin%2FDebug%2FPrimeiraAula.exe&quot; Namespace%3DPrimeiraAula.Modelo Type%3DValidacao"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="6ef2b80d-54e2-4148-9268-d8a7ff358730"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1eddff93-59c8-4b50-8a19-4272e0996e74">
+                <propertyInstance
+                  Id="9599eb2f-7ccb-4851-af44-5cda8aeb0c27"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="45a00819-a842-4dc2-a20e-fe41d4926af5">
+                <propertyInstance
+                  Id="cf10fd7a-87c3-4f7d-83cf-340c7c0211d0"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c8cb93fa-440a-4d3b-bb02-fb16074dd054">
+                <propertyInstance
+                  Id="c1aa327d-a04a-4db2-9987-b0a719fa81a7"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a07ce3a8-421d-44c0-8810-a4d0ffca572f">
+                <propertyInstance
+                  Id="11699043-0230-4b8c-b23e-906a3c6ae442"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5278aff0-459c-403e-9c76-d10d59294415">
+                <propertyInstance
+                  Id="42daf8ba-02c8-4041-a783-156f053a96f9"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="1856c3c0-0ff7-4813-b647-98e4cc3eb225"
+            name="mensagem"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="1201944e-1912-4b24-a684-1cf4676ee709"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Freverdan.sparinger%2FDocuments%2FVisual Studio 2012%2FProjects%2Fads noite%2FPrimeiraAula%2FPrimeiraAula%2Fbin%2FDebug%2FPrimeiraAula.exe&quot; Namespace%3DPrimeiraAula.Modelo Type%3DValidacao Member%3Dmensagem"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="865f5d2b-7dc6-453e-9df4-c7a8a4de7c36"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ac7ab99a-2cc0-4be1-a19d-2a2172dc4dda">
+                    <propertyInstance
+                      Id="bcd3bff2-64f0-4e70-81f2-85b5bda0e986"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="712c3edd-2895-4be0-b081-7206e23767b1">
+                    <propertyInstance
+                      Id="68310001-fa53-43dd-bf37-cfaa7b09b74e"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fe8ca9c4-77eb-44e7-99c5-0f69f8d58a71">
+                    <propertyInstance
+                      Id="0d75697e-627e-436b-9c1d-6e17ac5b9483"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7ec2905b-cea4-4d75-a1e9-cc6c9205ad37">
+                    <propertyInstance
+                      Id="fddf4ae5-68a9-487f-b8fa-f6af92ad144b"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f868a9fb-5926-44c2-910e-fa8ebed00802">
+                    <propertyInstance
+                      Id="e7cea8d7-6434-4303-9d01-5e711a1c2429"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="b1115cf3-c9a3-47b4-b069-efafaf753fae"
+            name="n1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="65d8e449-64a4-4b2a-8e13-5c7f50d02c84"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Freverdan.sparinger%2FDocuments%2FVisual Studio 2012%2FProjects%2Fads noite%2FPrimeiraAula%2FPrimeiraAula%2Fbin%2FDebug%2FPrimeiraAula.exe&quot; Namespace%3DPrimeiraAula.Modelo Type%3DValidacao Member%3Dn1"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d287a9f0-2998-4b03-b16a-3cba15b8516c"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6e301f13-7b05-4cc0-9b99-b93b2645e5cb">
+                    <propertyInstance
+                      Id="d643d9b0-1e32-44ac-87d6-30b9842259e2"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="117ce3bd-9f2e-4b01-884d-a15355bf6a40">
+                    <propertyInstance
+                      Id="7d6e43f7-52f7-49b2-b334-5fb1af9f1d0f"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ac45ec8f-ede9-4cb3-8256-75bd036f3374">
+                    <propertyInstance
+                      Id="35a9aefa-1dda-4280-90d5-1226d52d4f45"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="317d007b-6169-4614-ac20-57dcbec1039d">
+                    <propertyInstance
+                      Id="9bfd4015-67d7-4475-a95c-dbd2e62a2b01"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6e60b74a-f14e-4aa1-ad16-ce0634fe3631">
+                    <propertyInstance
+                      Id="ce674472-5b41-4b9a-bfb0-7e161371b6ed"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="aea880db-0ed4-4a86-965e-38ada03a6e24"
+                LastKnownName="Double"
+                LastKnownLocation="Package2_2046.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="9e0d5534-e99e-46e4-8c81-74b701aa5e6d"
+            name="n2"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="ec124343-639f-4635-aa01-59fed62f8bff"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Freverdan.sparinger%2FDocuments%2FVisual Studio 2012%2FProjects%2Fads noite%2FPrimeiraAula%2FPrimeiraAula%2Fbin%2FDebug%2FPrimeiraAula.exe&quot; Namespace%3DPrimeiraAula.Modelo Type%3DValidacao Member%3Dn2"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9c471c78-cd21-43c2-84ba-8892b6dc2ac7"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9c02345f-5dec-4f90-bee0-e13650e5273d">
+                    <propertyInstance
+                      Id="3da1c19a-be5b-4f61-ab46-f768b681259f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1a029d19-84dd-4437-867b-33a69723010d">
+                    <propertyInstance
+                      Id="82b61bb5-0d85-4430-aafe-53b5241a6198"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="babf35e6-c806-454b-830d-1f576407801e">
+                    <propertyInstance
+                      Id="8c2491a9-0b1c-4d92-a0b6-1e205d6eb4d8"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8201df9e-fe64-43f7-b01c-f1c1efe8b29f">
+                    <propertyInstance
+                      Id="858e5f52-7716-4bf3-9e32-1f1b9f7a1ee4"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9e73e5c2-7db6-4cdb-bc95-7ac0ea81e32e">
+                    <propertyInstance
+                      Id="3ad27a42-7254-4450-bd45-9d123e88c4bf"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="aea880db-0ed4-4a86-965e-38ada03a6e24"
+                LastKnownName="Double"
+                LastKnownLocation="Package2_2046.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="41c6bf2c-5cd2-4987-9bd0-fc056b044c73"
+            name="num1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="a3c9f404-5c60-49c7-a6fb-5e4697e4d458"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Freverdan.sparinger%2FDocuments%2FVisual Studio 2012%2FProjects%2Fads noite%2FPrimeiraAula%2FPrimeiraAula%2Fbin%2FDebug%2FPrimeiraAula.exe&quot; Namespace%3DPrimeiraAula.Modelo Type%3DValidacao Member%3Dnum1"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9a948071-5529-414b-81c2-2a9d03c8eb58"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1145b783-bcda-47f0-9e4e-db81c9dd8887">
+                    <propertyInstance
+                      Id="fc89d171-ab58-44e5-b2f4-890ec22dee1f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7849da38-2bbb-4406-bdb3-da9d35fbec09">
+                    <propertyInstance
+                      Id="937f03f2-ce87-4cac-b358-8d87c5b65b8c"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f7cbe5c2-7412-4e2a-9759-a4ac60b047f9">
+                    <propertyInstance
+                      Id="1c522e66-6d67-4433-bba9-d952b2d5e80e"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb1d8067-28d6-4c7c-adea-de6f8aba723b">
+                    <propertyInstance
+                      Id="807cce47-a9c7-4b89-895f-bf94551fe641"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="13bd2275-3f0b-42a6-9f14-d9ffd428d072">
+                    <propertyInstance
+                      Id="3abe0818-dafc-468b-991a-2f1a98d63d12"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="11bdb818-dcbb-4355-9e8b-56450e182251"
+            name="num2"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="9facb42a-8af8-428c-ad2a-87cf58b1e5cc"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Freverdan.sparinger%2FDocuments%2FVisual Studio 2012%2FProjects%2Fads noite%2FPrimeiraAula%2FPrimeiraAula%2Fbin%2FDebug%2FPrimeiraAula.exe&quot; Namespace%3DPrimeiraAula.Modelo Type%3DValidacao Member%3Dnum2"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8eb10d3d-72f1-4cbd-97eb-85d28ac9d191"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b96a77cd-71aa-429e-9056-adb140dfcb18">
+                    <propertyInstance
+                      Id="6e4bc456-8ccc-42cd-b56a-7fef3fe2bf37"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9f4433db-8281-4b70-86ad-2c3e58b11adf">
+                    <propertyInstance
+                      Id="21927d99-2454-4480-a3e3-ae482c19ce60"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="da60b077-6434-4be4-8810-df7fa1100f9a">
+                    <propertyInstance
+                      Id="15fc08f0-4f7b-49d4-a02b-0b95256ee647"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f750daa1-93a0-4d51-8324-41d074c4b886">
+                    <propertyInstance
+                      Id="67c8062c-0be4-4c67-b423-46a57f8a47da"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a3ee693f-13bd-4c7f-ad12-5af23bad29ac">
+                    <propertyInstance
+                      Id="3caf6b57-b619-400d-948f-fca239bf9d73"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="38d44c5a-c3fa-4b8f-9ea5-929c59ec4aca"
+            name="Validar"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="0d6f2d50-19bc-48b5-837a-5fbca77ddebd"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Freverdan.sparinger%2FDocuments%2FVisual Studio 2012%2FProjects%2Fads noite%2FPrimeiraAula%2FPrimeiraAula%2Fbin%2FDebug%2FPrimeiraAula.exe&quot; Namespace%3DPrimeiraAula.Modelo Type%3DValidacao Member%3DValidar"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="843ae440-367d-458c-8254-ee9ffa94dff8"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="79bff6dc-350e-404d-9954-49eb99af5ac8">
+                    <propertyInstance
+                      Id="55325f59-556a-447e-bb54-2bfbdd7a484c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2259a04c-d657-4fda-9313-e0125f23807b">
+                    <propertyInstance
+                      Id="968d4799-27b0-4aa3-8f8a-abb5388b553b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7eed047c-09f5-400a-82ee-589dfdc6bed2">
+                    <propertyInstance
+                      Id="8a60f023-cdf0-4385-9207-0bd64157ef61"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="91e5817c-1614-4eec-bf06-e5be285a4b9e">
+                    <propertyInstance
+                      Id="71289934-aa96-4732-b03c-8f63ea50b2b7"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0cf0b594-5382-42bc-9bfb-a1c2635dac95">
+                    <propertyInstance
+                      Id="e835acd9-0af8-473b-a9a5-c000833dfed2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="be096466-c155-48da-9b13-3341f8a91e27">
+                    <propertyInstance
+                      Id="b17333d6-00e6-4446-9d19-cd3432328243"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="bd2b1342-0891-485b-8566-284f5026ee13"
+            name="Validacao"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="98c1f691-b712-4b96-ad5e-89d346d0175d"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Freverdan.sparinger%2FDocuments%2FVisual Studio 2012%2FProjects%2Fads noite%2FPrimeiraAula%2FPrimeiraAula%2Fbin%2FDebug%2FPrimeiraAula.exe&quot; Namespace%3DPrimeiraAula.Modelo Type%3DValidacao Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="267cf2b2-a598-423a-b9d6-97572970d874"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1ca6d6c8-d521-464c-874d-9780ff818358">
+                    <propertyInstance
+                      Id="a61e0eda-004b-470b-ac92-fba9949d39b2"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bcfe33ce-1fdc-4dc5-8dde-a7b6373a0820">
+                    <propertyInstance
+                      Id="a6b72fee-0567-482e-b4e6-5cee5357db05"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dc15c2db-5dd0-4159-826a-3fb9707f5277">
+                    <propertyInstance
+                      Id="c1512a12-2132-43ac-8072-c231d165ef05"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d1a9f5b7-53cc-4add-9cb4-46c0ff8cd25a">
+                    <propertyInstance
+                      Id="6b329aa8-8d66-4a2e-be0c-cfc3330ad118"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6918e679-9483-4e05-bc54-8dff5162a62b">
+                    <propertyInstance
+                      Id="8c413b82-bd0c-44ba-9652-b3bf0c5fdb7c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b0d10f6f-4203-4357-b1a0-9306f28de37f">
+                    <propertyInstance
+                      Id="3f46ee1b-492e-4d8e-bf68-a8d9241b771f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="000a46c4-cb51-4130-ada2-b2be845240d6"
+        name="Calculos"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="0f391949-4739-4817-8d84-46960a4cf690"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Freverdan.sparinger%2FDocuments%2FVisual Studio 2012%2FProjects%2Fads noite%2FPrimeiraAula%2FPrimeiraAula%2Fbin%2FDebug%2FPrimeiraAula.exe&quot; Namespace%3DPrimeiraAula.Modelo Type%3DCalculos"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="7cbc557e-d517-4866-9c43-374e209e9ea6"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ce5fcafe-7107-4217-b8b0-cfd3dbf4d7d2">
+                <propertyInstance
+                  Id="6f3e2de3-44b9-44ab-b350-70570eb8e097"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="74dd420c-393f-4013-ab5a-c557282caf68">
+                <propertyInstance
+                  Id="172e65d4-7199-4a45-970b-e3681de246a0"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6764176a-caed-47d6-bf92-d17c14097906">
+                <propertyInstance
+                  Id="88b0827b-ccd2-465a-8ad5-f0b3194b1612"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ec934503-68f7-4b4c-9428-f194bbcddab8">
+                <propertyInstance
+                  Id="0dd32fb8-ed11-4045-8f93-1ee85b2a127c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fe40fee3-9826-4137-ba79-25bb19a60039">
+                <propertyInstance
+                  Id="176ce23d-f0bc-4cf7-9c0d-6a600b28ee1e"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="939e3fe8-af86-4d36-8d89-1ea56a7c950c"
+            name="n1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="8f03291e-a8a0-464e-9184-7d5254fbc3b0"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Freverdan.sparinger%2FDocuments%2FVisual Studio 2012%2FProjects%2Fads noite%2FPrimeiraAula%2FPrimeiraAula%2Fbin%2FDebug%2FPrimeiraAula.exe&quot; Namespace%3DPrimeiraAula.Modelo Type%3DCalculos Member%3Dn1"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="cf603174-2308-43b7-8228-47e862575cc6"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e55949c7-b2b8-4c37-8abc-a1ba1fb4b6e7">
+                    <propertyInstance
+                      Id="f36042a3-d436-47e7-a588-cb783b5ee35f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8e452668-14b1-4575-b144-ae7dc4e99fdc">
+                    <propertyInstance
+                      Id="42b4b4fa-da05-47cb-812e-0fc6ac38d6a2"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ba1000d3-4333-4748-a732-4884af124018">
+                    <propertyInstance
+                      Id="da87428a-69a6-45b5-a6ae-56fc7997a949"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7310d460-460b-4dce-8865-61ef3a03b153">
+                    <propertyInstance
+                      Id="efc898fe-2a71-446c-b251-293489531479"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b4f1c67b-3605-451f-9692-ea556bddf90e">
+                    <propertyInstance
+                      Id="17a3a705-557a-40cd-acca-09385ce212b4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="aea880db-0ed4-4a86-965e-38ada03a6e24"
+                LastKnownName="Double"
+                LastKnownLocation="Package2_2046.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="247c7c5f-a1e9-495d-bc4b-60d3225c6e33"
+            name="n2"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="883ee2cb-c5d1-4833-9685-79ef2565f00d"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Freverdan.sparinger%2FDocuments%2FVisual Studio 2012%2FProjects%2Fads noite%2FPrimeiraAula%2FPrimeiraAula%2Fbin%2FDebug%2FPrimeiraAula.exe&quot; Namespace%3DPrimeiraAula.Modelo Type%3DCalculos Member%3Dn2"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e0d66d79-d824-490c-af75-f82c14c82474"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8790db41-d45d-400d-b39a-f0b682bddf36">
+                    <propertyInstance
+                      Id="11d47382-a430-4856-9085-9595ab2771c4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f1f830d6-b67b-4f9f-a36a-7c4fc5b676c4">
+                    <propertyInstance
+                      Id="b242caf4-3e52-457a-bb4a-bc588a4244c8"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f37f716-95d5-4909-8d85-be8f82a81bb8">
+                    <propertyInstance
+                      Id="0f98292f-5dbb-493c-b100-6188956d0401"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0b50fde0-2219-4ddc-85c7-8ad12176c9d1">
+                    <propertyInstance
+                      Id="5e715a30-a918-4b22-b020-b5ed95a26546"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0436312c-42b4-441f-9572-7e72baff354f">
+                    <propertyInstance
+                      Id="5899b2b5-51e4-4802-a9c2-4b3bb1163756"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="aea880db-0ed4-4a86-965e-38ada03a6e24"
+                LastKnownName="Double"
+                LastKnownLocation="Package2_2046.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="22f8d0ca-0aad-494e-9aa7-8df8d46fcb1f"
+            name="op"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="2040553f-b90b-414b-9ae7-aed431b05953"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Freverdan.sparinger%2FDocuments%2FVisual Studio 2012%2FProjects%2Fads noite%2FPrimeiraAula%2FPrimeiraAula%2Fbin%2FDebug%2FPrimeiraAula.exe&quot; Namespace%3DPrimeiraAula.Modelo Type%3DCalculos Member%3Dop"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="08feeb7a-8cc2-425e-8c33-2d6e4a5ca136"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5364ef1c-da5d-4628-879c-83665ce9e5a6">
+                    <propertyInstance
+                      Id="39baf313-aa11-4f3c-b333-2a4638648485"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="72dc6ffa-6c1b-431a-a0f9-fd5ff67c5781">
+                    <propertyInstance
+                      Id="47c9047d-f624-4a91-b550-fce8f2b851f3"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0ada9958-53f0-4f5f-8d81-6e2cf408178b">
+                    <propertyInstance
+                      Id="7c49b4fa-6c8c-4d0f-bbfe-caca05a9bec2"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9920aed3-2e0f-40d8-b098-b0b7c8d1484a">
+                    <propertyInstance
+                      Id="995fded3-c69e-4646-8fb9-b680f2716726"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bfa9b369-b5e8-489b-b300-8e539fbe9397">
+                    <propertyInstance
+                      Id="da5e48f8-1adc-429a-b722-b5a4cd5ce93d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="c487d5d7-0c8b-4d1c-a4c6-8a2aa9cd96ec"
+            name="resposta"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="9e3e43ff-95cd-407e-8adf-4bf5c31723c5"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Freverdan.sparinger%2FDocuments%2FVisual Studio 2012%2FProjects%2Fads noite%2FPrimeiraAula%2FPrimeiraAula%2Fbin%2FDebug%2FPrimeiraAula.exe&quot; Namespace%3DPrimeiraAula.Modelo Type%3DCalculos Member%3Dresposta"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="af6a63a8-1ba1-4b1c-b422-ad718bc8d6fd"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="834e6fd0-70cf-41eb-a828-ce4d9d2a0cca">
+                    <propertyInstance
+                      Id="31617c3e-d502-4f46-a251-0fe1be2c0ce7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2b0d6d76-e1d5-4daa-877f-17e07889b692">
+                    <propertyInstance
+                      Id="ceab6d4d-0ffe-4258-b7d2-2beff8031d15"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a6cb1c5c-9aad-4888-a858-2a5f4d519156">
+                    <propertyInstance
+                      Id="5cc94e88-3d01-4f4f-b18a-fce0627283cb"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6679c881-7619-452e-baa7-02efb3679c4a">
+                    <propertyInstance
+                      Id="ae807ba0-340a-480f-8ea7-1749d9974aa4"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="74a2f3f4-c24a-415c-a5a5-415670e27b8c">
+                    <propertyInstance
+                      Id="32bfb291-8ef6-42b4-9462-d3361f2110ee"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="46678e70-92cc-4503-9159-3acfbfa36a91"
+            name="Calcular"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a3a5278b-a439-4e71-a480-e0c6c7f2c07f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Freverdan.sparinger%2FDocuments%2FVisual Studio 2012%2FProjects%2Fads noite%2FPrimeiraAula%2FPrimeiraAula%2Fbin%2FDebug%2FPrimeiraAula.exe&quot; Namespace%3DPrimeiraAula.Modelo Type%3DCalculos Member%3DCalcular"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="714d8455-7c05-4025-9109-104ce7d4837f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5affb75f-b609-40fb-a87f-d21f1a1b0d23">
+                    <propertyInstance
+                      Id="a9bf4dd4-d15f-423d-ac4d-4394324736c2"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="498d8181-0e16-42b2-996a-8b0d37ff4498">
+                    <propertyInstance
+                      Id="0af069c7-0f04-4723-b203-30e671f47e41"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fde25417-526c-4d0e-98e0-7b5f0a2bb376">
+                    <propertyInstance
+                      Id="fc3b7ee4-eff8-4ca1-8da9-8418ed17f847"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2e98ba28-c6ab-4120-9543-fb32ddf24664">
+                    <propertyInstance
+                      Id="29ec9809-00d0-4070-a8a5-f020421c813b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="71cf7d82-b788-46cb-8af0-bf8762468b06">
+                    <propertyInstance
+                      Id="bc6b618b-ba97-4d53-baff-404e7e8254c6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5dab4394-f4e8-4a51-96e7-fdd9196af8d1">
+                    <propertyInstance
+                      Id="9572f526-151b-4275-9819-eff62e8bebfb"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="ea5ddef9-7837-4d17-99f4-880f9316fee9"
+            name="Calculos"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="02d540ee-135d-4d4c-bc2d-51d82ef47058"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Freverdan.sparinger%2FDocuments%2FVisual Studio 2012%2FProjects%2Fads noite%2FPrimeiraAula%2FPrimeiraAula%2Fbin%2FDebug%2FPrimeiraAula.exe&quot; Namespace%3DPrimeiraAula.Modelo Type%3DCalculos Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="85eafae7-f352-4360-96a5-58d295e8f30a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="68f66808-e10e-4cce-b5cc-4013403a898c">
+                    <propertyInstance
+                      Id="04442841-bc0e-46ee-b41e-715928b50c7b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="41666df8-5ece-4c26-a702-388296b1d339">
+                    <propertyInstance
+                      Id="e08d8dd9-6dd5-419a-8ad4-e95863a49993"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0cf2fa16-af30-4041-b439-46215dda2df4">
+                    <propertyInstance
+                      Id="24ee5ff1-5655-4dd0-ac02-f4baf0bb053c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d8091537-25d9-4dea-9c6c-3d2fabd82d3f">
+                    <propertyInstance
+                      Id="9ca5d701-492f-462f-9ab2-cb2006af448c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4f44deba-c2ec-4d78-8a86-487fe0403946">
+                    <propertyInstance
+                      Id="4c1b3785-f88c-4ff8-9da7-d022d0fd4fe1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cf2e8fe6-3035-4d0a-8323-7023b9ea8591">
+                    <propertyInstance
+                      Id="141586b7-03ef-468e-87ae-c8b5e78b1269"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="127e5d99-186b-408d-8185-0e8141a28c02"
+        name="Controle"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="8168906d-5f3d-420a-8069-eafe2c39f39b"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Freverdan.sparinger%2FDocuments%2FVisual Studio 2012%2FProjects%2Fads noite%2FPrimeiraAula%2FPrimeiraAula%2Fbin%2FDebug%2FPrimeiraAula.exe&quot; Namespace%3DPrimeiraAula.Modelo Type%3DControle"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="995ec1c7-bd8e-44c0-9a66-01b624d29e0f"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7d3fb9b0-92ac-4541-96cd-024f3b7f96e5">
+                <propertyInstance
+                  Id="fa40f9e7-41b2-4fdd-9cb2-f20d85ae47b2"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f428be8e-11a6-4671-99ae-dc61a376ba84">
+                <propertyInstance
+                  Id="addc0359-aa3b-4f60-b1a0-a16e7b6ec250"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="82cb770c-71bc-40cc-86de-57507c84cbb9">
+                <propertyInstance
+                  Id="5ae81459-1fe6-45ad-95b3-f46697e77707"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c8928df9-91c0-47aa-919b-9498824d3a52">
+                <propertyInstance
+                  Id="892c9cab-91d1-48fe-8a27-7edab25e960b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="22f7f11d-97d9-404f-aaee-aebde74ce0b4">
+                <propertyInstance
+                  Id="810f1e9b-5509-4f28-9eb4-4ec225adcf66"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="32f679c8-6bd5-4e9d-a097-a51d420df408"
+            name="mensagem"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="8bcfe5b2-16cf-4307-8b4f-132846fd3f4b"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Freverdan.sparinger%2FDocuments%2FVisual Studio 2012%2FProjects%2Fads noite%2FPrimeiraAula%2FPrimeiraAula%2Fbin%2FDebug%2FPrimeiraAula.exe&quot; Namespace%3DPrimeiraAula.Modelo Type%3DControle Member%3Dmensagem"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0bfaba2c-8664-4bd0-8cf1-72abe22c0bac"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a73e6f94-20f4-4471-a323-439477713466">
+                    <propertyInstance
+                      Id="e0da1588-2992-4612-bcdf-b555672fa8f3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0ebc807b-aece-4c5b-8ab3-15d7c6e0226f">
+                    <propertyInstance
+                      Id="4f110285-7d32-428a-b920-959f65c7f811"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3012eedb-f3ec-4989-af35-42fdbb438878">
+                    <propertyInstance
+                      Id="553cd0b9-c63c-4ff2-9ec0-263dedfb9509"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1f190440-9900-417e-aadb-d2de69c3f343">
+                    <propertyInstance
+                      Id="f52c06c1-45d5-4f5c-9e1b-58e633b17b7e"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="341819d0-b12c-4a78-bdf1-3f904d9dfefe">
+                    <propertyInstance
+                      Id="fef630da-b858-42c3-ad21-64236a89b8c2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="818f84f2-b6e4-41ec-8599-9d8497ae3f04"
+            name="num1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="daddf871-b4f2-4938-802f-c2340c0ff9da"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Freverdan.sparinger%2FDocuments%2FVisual Studio 2012%2FProjects%2Fads noite%2FPrimeiraAula%2FPrimeiraAula%2Fbin%2FDebug%2FPrimeiraAula.exe&quot; Namespace%3DPrimeiraAula.Modelo Type%3DControle Member%3Dnum1"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="511c431d-1396-4ec5-bbd5-a23881f0c5f7"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="35599d68-9a12-411a-877d-a37c58384a08">
+                    <propertyInstance
+                      Id="f77879cd-7093-4ef5-a4dd-d9ec5619a38f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="805acc68-9a23-4218-a797-63708f1c7225">
+                    <propertyInstance
+                      Id="ac4784ac-78e5-44e9-b112-a014b60a6859"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="05c5bd3d-a145-4ad3-a26c-4dd698956898">
+                    <propertyInstance
+                      Id="0ef26366-ec75-4ce7-8ebf-678324015fc4"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f37248ba-db86-4dff-8641-251109867f1a">
+                    <propertyInstance
+                      Id="16240a80-0c1c-43ea-8a40-7608051e20f5"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7eda3371-e906-4a0f-aa27-65bcbc87727f">
+                    <propertyInstance
+                      Id="90e232ae-5939-4f6f-8daf-989f6dc57f28"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="b7203621-c098-41be-b393-4353c9f0adec"
+            name="num2"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="ebb2e9ad-5314-4450-834c-8780f16b2063"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Freverdan.sparinger%2FDocuments%2FVisual Studio 2012%2FProjects%2Fads noite%2FPrimeiraAula%2FPrimeiraAula%2Fbin%2FDebug%2FPrimeiraAula.exe&quot; Namespace%3DPrimeiraAula.Modelo Type%3DControle Member%3Dnum2"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a405c460-4605-43a5-b8fd-16bd7ffa4b34"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="66fb0f8f-00da-46ff-b9e1-10985555b00a">
+                    <propertyInstance
+                      Id="5389c4a3-58df-4af3-abef-b4b33a86f0bd"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b64c62c9-0fe2-4eb7-8d76-0a3695f73dfc">
+                    <propertyInstance
+                      Id="49e97ee1-2124-46f5-ba94-9c0d34a23656"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8fa17851-cb14-4bcd-806e-405b8a686fb1">
+                    <propertyInstance
+                      Id="57727c82-5091-42af-8bbf-85535a96ae3b"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c2f2efd-7134-4eaf-a94f-84ffc46fe8ec">
+                    <propertyInstance
+                      Id="bc2714e6-f063-4270-a845-d7018397e336"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9346dba9-dd6e-45d2-a84a-336de867358f">
+                    <propertyInstance
+                      Id="7480eb89-22aa-4ad7-9bc1-bd0384394d2a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="5fda95b3-0bc9-42b7-8428-e445b405405a"
+            name="op"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="8e61df80-7da4-4e4e-9f44-5b45e56349a5"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Freverdan.sparinger%2FDocuments%2FVisual Studio 2012%2FProjects%2Fads noite%2FPrimeiraAula%2FPrimeiraAula%2Fbin%2FDebug%2FPrimeiraAula.exe&quot; Namespace%3DPrimeiraAula.Modelo Type%3DControle Member%3Dop"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="697d65e2-4961-4b96-803b-6d1da3ad5a04"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2043b4f0-d03a-4be3-a6ba-e5d907ac3f8e">
+                    <propertyInstance
+                      Id="08229233-f299-4139-9bc6-2eb131d55218"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d5399a90-376b-4c71-8942-f10d391d5594">
+                    <propertyInstance
+                      Id="21ab4205-c929-4733-a2bd-88e30a9841d5"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c5e3944-b30a-4150-be92-eabb70df4e89">
+                    <propertyInstance
+                      Id="5aba0dbb-17ba-4ea4-9f8a-0a6857cdf5de"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="936b9b6e-8f4e-4510-917d-1a1796bcafab">
+                    <propertyInstance
+                      Id="90bea64c-3b3a-4bb2-8f95-11b706d3f2d9"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ceee144c-cb8b-4d17-ad73-46d81db144d9">
+                    <propertyInstance
+                      Id="a763f9c5-3377-42d1-8ab0-b2bfa3955883"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="c9996b11-39bd-45ba-8082-107a92f89bff"
+            name="resposta"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="1e331515-db6b-48b6-89ca-9b6cf28e092e"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Freverdan.sparinger%2FDocuments%2FVisual Studio 2012%2FProjects%2Fads noite%2FPrimeiraAula%2FPrimeiraAula%2Fbin%2FDebug%2FPrimeiraAula.exe&quot; Namespace%3DPrimeiraAula.Modelo Type%3DControle Member%3Dresposta"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5bfc8eb3-3389-4b0e-bbd2-6c45d6091c11"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2e827fd8-ac49-494c-b21a-a35f8f400117">
+                    <propertyInstance
+                      Id="5a65b4c3-60a0-4a67-b22c-b4d3da76cd05"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d4deb88-3c6d-4f5f-925d-cdf191d1b4e2">
+                    <propertyInstance
+                      Id="c0fef946-0ac4-4c87-9321-2f41252e0283"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="17d1cdcf-f9a1-45c3-82b9-6c54c165113e">
+                    <propertyInstance
+                      Id="b5e51a4c-305b-466c-acfb-979f8ad85227"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="19682779-bd25-4192-9474-3dc4a884709a">
+                    <propertyInstance
+                      Id="abf0a878-b9bd-478a-968e-0a724a8a42e3"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9207d6f5-b736-4e30-82c5-7dde6c7cb51e">
+                    <propertyInstance
+                      Id="709657e8-6c07-4cca-875b-bdbb730110c6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="50351774-f0ba-4aeb-8353-1b026512130f"
+            name="Executar"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b8bf9aa4-3bca-4e47-8b29-d14e2bc593dc"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Freverdan.sparinger%2FDocuments%2FVisual Studio 2012%2FProjects%2Fads noite%2FPrimeiraAula%2FPrimeiraAula%2Fbin%2FDebug%2FPrimeiraAula.exe&quot; Namespace%3DPrimeiraAula.Modelo Type%3DControle Member%3DExecutar"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a68ff32f-06dc-4d57-ab83-fc395cba0ad4"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d08e7222-1682-4e9b-91e5-5051fdb7dccc">
+                    <propertyInstance
+                      Id="daff9e0d-03b2-4275-bef5-c57e63fa35dd"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f7267c7d-5b1b-4bb9-8468-933a858b8341">
+                    <propertyInstance
+                      Id="bd7e5e0d-ab09-464d-86bb-359378df341b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7985f10a-b9df-4258-bc3b-21b1991bd0ef">
+                    <propertyInstance
+                      Id="e72e063c-0c6c-4235-b91a-5c45168d0603"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1030071b-d215-4714-a083-2cf78c54cb27">
+                    <propertyInstance
+                      Id="9fe93b25-61ee-434c-b835-7ffd33e468ab"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="af3f50b6-7b36-41d9-8aaa-a149f6bbf7b4">
+                    <propertyInstance
+                      Id="239c00d4-f488-407b-8f53-e2431cedd6fc"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f56dec1-3907-4b27-9c2e-0dc7d0cb5b31">
+                    <propertyInstance
+                      Id="441a3b9e-6d3a-4e0f-bc43-f07c9a31bbd4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="b1c4ad5b-0bc3-4b56-ab69-5d272ca95a73"
+            name="Controle"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="21e3540b-902d-43bc-9043-758a91f71369"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Freverdan.sparinger%2FDocuments%2FVisual Studio 2012%2FProjects%2Fads noite%2FPrimeiraAula%2FPrimeiraAula%2Fbin%2FDebug%2FPrimeiraAula.exe&quot; Namespace%3DPrimeiraAula.Modelo Type%3DControle Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1db61cf2-43ed-4b61-9373-7e73fcabd98c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="47dff111-46cc-435f-ae8d-2680756a1626">
+                    <propertyInstance
+                      Id="972fde92-9543-4127-be3d-245546337c09"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d4f2c6ee-bdd5-4672-9243-08370fb03e26">
+                    <propertyInstance
+                      Id="3325a3c7-3e51-46c7-8169-bbb72b7c7a72"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="35a17788-0bf2-4b2d-b70e-af6afe8c6bd6">
+                    <propertyInstance
+                      Id="56d322f4-d3ba-4e88-a249-08cd36747a2a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="06389409-3a98-43eb-87f5-470cec38600f">
+                    <propertyInstance
+                      Id="6c231878-295f-4533-a7c6-a226740b02a2"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="844da2ce-9dfd-4aff-a89b-9627972c5208">
+                    <propertyInstance
+                      Id="12d5d39d-dddf-4889-afa7-7386531cea9b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a17710c6-2ebe-44e0-acdc-91acf290e8d1">
+                    <propertyInstance
+                      Id="561b9f3f-8b0f-48cd-889c-a766e3d3c6f5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

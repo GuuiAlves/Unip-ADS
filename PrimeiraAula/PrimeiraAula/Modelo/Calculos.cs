@@ -5,23 +5,23 @@ using System.Text;
 
 namespace PrimeiraAula.Modelo
 {
-    public class Calculos
+    public class Calculos : absPropriedades
     {
-        public Double n1;
-        public Double n2;
-        public String op;
-        public String resposta;
-
+        public Calculos(Double n1, Double n2, String op) : base(n1, n2, op)
+        {
+            Calcular();
+        }
         public void Calcular()
         {
             if (this.op.Equals("+"))
-            this.resposta = (this.n1 + this.n2).ToString();
+                this.resposta = (this.n1 + this.n2).ToString();
             if (this.op.Equals("-"))
-            this.resposta = (this.n1 - this.n2).ToString();
+                this.resposta = (this.n1 - this.n2).ToString();
             if (this.op.Equals("*"))
-            this.resposta = (this.n1 * this.n2).ToString();
+                this.resposta = (this.n1 * this.n2).ToString();
             if (this.op.Equals("/"))
                 this.resposta = (this.n1 / this.n2).ToString();
         }
+
     }
 }

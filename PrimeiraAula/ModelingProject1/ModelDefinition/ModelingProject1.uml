@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
   dslVersion="1.0.0.0"
-  Id="1c8a9824-87c4-4cb2-aee2-06e1c7078882"
+  Id="9fe34402-31ef-4953-af2a-64a6a15956d7"
   name="ModelingProject1" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
   <profileInstances>
     <packageHasProfileInstances
@@ -17,32 +17,24 @@
         name="StandardProfileL3" />
     </packageHasProfileInstances>
     <packageHasProfileInstances
-      Id="ba92b168-8a34-4b34-ba0c-5caba1f3e6f3">
+      Id="89688368-f261-41a7-abbd-2360fc867b4d">
       <profileInstance
-        Id="ed1f71c0-fadf-4586-b8b9-3d0a9caaaecd"
+        Id="58991cd4-3cf2-4436-8526-974228c02d95"
         name="CSharpProfile" />
     </packageHasProfileInstances>
   </profileInstances>
   <packagedElements>
     <packageHasNamedElement>
-      <class
-        Id="6279efd0-c6a2-4f49-9cdb-7f029cf446e3"
-        name="Class1"
-        isAbstract="false"
-        isLeaf="false"
-        isActiveClass="false" />
-    </packageHasNamedElement>
-    <packageHasNamedElement>
       <packageMoniker
-        Id="113985f5-664e-4286-8670-cc348e2a042f"
+        Id="6010dfd9-ca65-4c3b-a8a4-963571ee730a"
         LastKnownName="PrimeiraAula"
-        LastKnownLocation="Package_2052.uml" />
+        LastKnownLocation="Package_2046.uml" />
     </packageHasNamedElement>
     <packageHasNamedElement>
       <packageMoniker
-        Id="e8bdf1d6-ee94-4b1d-8e35-d27ec71ada43"
+        Id="81a02e47-98c8-405e-81fa-d1ad5a117df7"
         LastKnownName="System"
-        LastKnownLocation="Package2_2052.uml" />
+        LastKnownLocation="Package2_2046.uml" />
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType

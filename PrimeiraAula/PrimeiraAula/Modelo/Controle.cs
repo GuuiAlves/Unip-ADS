@@ -5,34 +5,26 @@ using System.Text;
 
 namespace PrimeiraAula.Modelo
 {
-    public class Controle
+    public class Controle : absPropriedades
     {
-        public String num1;
-        public String num2;
-        public String op;
-        public String resposta;
-        public String mensagem;
+        public Controle(String num1, String num2, String op) : base(num1, num2, op)
+        {
+            this.Executar();
+        }
 
         public void Executar()
         {
             this.mensagem = "";
-            Validacao valida = new Validacao();
-            valida.num1 = this.num1;
-            valida.num2 = this.num2;
-            valida.op = this.op;
-            valida.Validar();
-            if (valida.mensagem.Equals(""))
+            Validacao validacao = new Validacao(this.num1, this.num2, this.op);
+
+            if (validacao.mensagem.Equals(""))
             {
-                Calculos calculos = new Calculos();
-                calculos.n1 = valida.n1;
-                calculos.n2 = valida.n2;
-                calculos.op = this.op;
-                calculos.Calcular();
+                Calculos calculos = new Calculos(validacao.n1, validacao.n2, validacao.op);
                 this.resposta = calculos.resposta;
             }
             else
             {
-                this.mensagem = valida.mensagem;
+                this.mensagem = validacao.mensagem;
             }
         }
     }

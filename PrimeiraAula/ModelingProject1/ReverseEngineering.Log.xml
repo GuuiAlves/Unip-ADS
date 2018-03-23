@@ -6,21 +6,36 @@
   <MessageClass Name="Error" Label="Error" Option="Show errors" />
   <MessageClass Name="Property" Label="Property" Option="Show metadata" />
   <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
-  <Message Timestamp="2018-03-16T20:52:37" Importance="High" Text="Reverse Engineering Started." />
-  <Message Timestamp="2018-03-16T20:52:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrimeiraAula' -  (Package)" />
-  <Message Timestamp="2018-03-16T20:52:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrimeiraAula::Modelo' -  (Package)" />
-  <Message Timestamp="2018-03-16T20:52:38" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrimeiraAula::Modelo::Validacao' -  (Class)" />
-  <Message Timestamp="2018-03-16T20:52:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrimeiraAula::Modelo::Validacao::mensagem' -  (Property)" />
-  <Message Timestamp="2018-03-16T20:52:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrimeiraAula::Modelo::Validacao::n1' -  (Property)" />
-  <Message Timestamp="2018-03-16T20:52:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrimeiraAula::Modelo::Validacao::n2' -  (Property)" />
-  <Message Timestamp="2018-03-16T20:52:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrimeiraAula::Modelo::Validacao::num1' -  (Property)" />
-  <Message Timestamp="2018-03-16T20:52:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrimeiraAula::Modelo::Validacao::num2' -  (Property)" />
-  <Message Timestamp="2018-03-16T20:52:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrimeiraAula::Modelo::Validacao::Validacao' -  (Operation)" />
-  <Message Timestamp="2018-03-16T20:52:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrimeiraAula::Modelo::Validacao::Validar' -  (Operation)" />
-  <Message Timestamp="2018-03-16T20:52:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System' -  (Package)" />
-  <Message Timestamp="2018-03-16T20:52:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Double' -  (Class)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2018-03-16T20:52:38" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
-  <Message Timestamp="2018-03-16T20:52:38" Importance="High" Text="(1) type(s) fully reverse engineered." />
-  <Message Timestamp="2018-03-16T20:52:38" Importance="High" Text="(1) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
-  <Message Timestamp="2018-03-16T20:52:38" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+  <Message Timestamp="2018-03-16T20:56:30" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2018-03-16T20:56:32" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrimeiraAula' -  (Package)" />
+  <Message Timestamp="2018-03-16T20:56:32" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrimeiraAula::Modelo' -  (Package)" />
+  <Message Timestamp="2018-03-16T20:56:32" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrimeiraAula::Modelo::Calculos' -  (Class)" />
+  <Message Timestamp="2018-03-16T20:56:32" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrimeiraAula::Modelo::Calculos::Calcular' -  (Operation)" />
+  <Message Timestamp="2018-03-16T20:56:32" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrimeiraAula::Modelo::Calculos::Calculos' -  (Operation)" />
+  <Message Timestamp="2018-03-16T20:56:32" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrimeiraAula::Modelo::Calculos::n1' -  (Property)" />
+  <Message Timestamp="2018-03-16T20:56:32" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrimeiraAula::Modelo::Calculos::n2' -  (Property)" />
+  <Message Timestamp="2018-03-16T20:56:32" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrimeiraAula::Modelo::Calculos::op' -  (Property)" />
+  <Message Timestamp="2018-03-16T20:56:32" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrimeiraAula::Modelo::Calculos::resposta' -  (Property)" />
+  <Message Timestamp="2018-03-16T20:56:32" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrimeiraAula::Modelo::Controle' -  (Class)" />
+  <Message Timestamp="2018-03-16T20:56:32" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrimeiraAula::Modelo::Controle::Controle' -  (Operation)" />
+  <Message Timestamp="2018-03-16T20:56:32" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrimeiraAula::Modelo::Controle::Executar' -  (Operation)" />
+  <Message Timestamp="2018-03-16T20:56:32" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrimeiraAula::Modelo::Controle::mensagem' -  (Property)" />
+  <Message Timestamp="2018-03-16T20:56:32" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrimeiraAula::Modelo::Controle::num1' -  (Property)" />
+  <Message Timestamp="2018-03-16T20:56:32" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrimeiraAula::Modelo::Controle::num2' -  (Property)" />
+  <Message Timestamp="2018-03-16T20:56:32" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrimeiraAula::Modelo::Controle::op' -  (Property)" />
+  <Message Timestamp="2018-03-16T20:56:32" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrimeiraAula::Modelo::Controle::resposta' -  (Property)" />
+  <Message Timestamp="2018-03-16T20:56:32" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrimeiraAula::Modelo::Validacao' -  (Class)" />
+  <Message Timestamp="2018-03-16T20:56:32" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrimeiraAula::Modelo::Validacao::mensagem' -  (Property)" />
+  <Message Timestamp="2018-03-16T20:56:32" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrimeiraAula::Modelo::Validacao::n1' -  (Property)" />
+  <Message Timestamp="2018-03-16T20:56:32" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrimeiraAula::Modelo::Validacao::n2' -  (Property)" />
+  <Message Timestamp="2018-03-16T20:56:32" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrimeiraAula::Modelo::Validacao::num1' -  (Property)" />
+  <Message Timestamp="2018-03-16T20:56:32" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrimeiraAula::Modelo::Validacao::num2' -  (Property)" />
+  <Message Timestamp="2018-03-16T20:56:32" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrimeiraAula::Modelo::Validacao::Validacao' -  (Operation)" />
+  <Message Timestamp="2018-03-16T20:56:32" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrimeiraAula::Modelo::Validacao::Validar' -  (Operation)" />
+  <Message Timestamp="2018-03-16T20:56:32" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System' -  (Package)" />
+  <Message Timestamp="2018-03-16T20:56:32" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Double' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2018-03-16T20:56:32" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
+  <Message Timestamp="2018-03-16T20:56:32" Importance="High" Text="(3) type(s) fully reverse engineered." />
+  <Message Timestamp="2018-03-16T20:56:32" Importance="High" Text="(1) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2018-03-16T20:56:32" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
 </Log>

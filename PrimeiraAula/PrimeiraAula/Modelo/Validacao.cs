@@ -5,15 +5,12 @@ using System.Text;
 
 namespace PrimeiraAula.Modelo
 {
-    public class Validacao
+    public class Validacao : absPropriedades
     {
-        public String num1;
-        public String num2;
-        public Double n1;
-        public Double n2;
-        public String mensagem;
-        public String op;
-
+        public Validacao(String n1, String n2, String op) : base(n1, n2, op)
+        {
+            Validar();
+        }
         public void Validar()
         {
             this.mensagem = "";
@@ -21,21 +18,21 @@ namespace PrimeiraAula.Modelo
             {
                 this.n1 = Convert.ToDouble(this.num1);
             }
-            catch (FormatException e)
+            catch (FormatException)
             {
-                this.mensagem = "Erro de conversão do primeiro numero \n";
+                this.mensagem = "Erro de conversão no campo 1 \n";
             }
             try
             {
                 this.n2 = Convert.ToDouble(this.num2);
             }
-            catch (FormatException e)
+            catch (FormatException)
             {
-                this.mensagem += "Erro de conversão do segundo numero \n";
+                this.mensagem += "Erro de conversão no campo 2 \n";
             }
             if (this.num2.Equals("0") && this.op.Equals("/"))
             {
-                this.mensagem += "Erro, divisão por zero";
+                this.mensagem += "Divisao por 0";
             }
         }
     }
